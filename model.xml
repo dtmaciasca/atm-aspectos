@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+	<properties>
+		<graphics key="showhiddenfeatures" value="true"/>
+		<graphics key="legendautolayout" value="true"/>
+		<graphics key="showshortnames" value="false"/>
+		<graphics key="layout" value="horizontal"/>
+		<graphics key="showcollapsedconstraints" value="true"/>
+		<graphics key="legendhidden" value="false"/>
+		<graphics key="layoutalgorithm" value="1"/>
+	</properties>
+	<struct>
+		<and abstract="true" mandatory="true" name="ATMs">
+			<feature mandatory="true" name="Saldo"/>
+			<feature mandatory="true" name="Retirar"/>
+			<feature name="Transferencia"/>
+			<feature name="Consignar"/>
+			<feature name="SaldoReducido"/>
+			<feature mandatory="true" name="ListarOperaciones"/>
+			<and name="GenerarArchivo">
+				<feature name="AuditoriaUsuario"/>
+				<feature name="AuditoriaOperaciones"/>
+			</and>
+		</and>
+	</struct>
+</featureModel>

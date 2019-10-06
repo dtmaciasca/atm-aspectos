@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration>
+	<feature automatic="selected" name="ATMs"/>
+	<feature automatic="selected" name="Saldo"/>
+	<feature automatic="selected" name="Retirar"/>
+	<feature manual="selected" name="Transferencia"/>
+	<feature manual="selected" name="Consignar"/>
+	<feature manual="selected" name="SaldoReducido"/>
+	<feature automatic="selected" name="ListarOperaciones"/>
+	<feature automatic="selected" manual="selected" name="GenerarArchivo"/>
+	<feature manual="selected" name="AuditoriaUsuario"/>
+	<feature manual="selected" name="AuditoriaOperaciones"/>
+</configuration>
